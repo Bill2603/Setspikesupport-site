@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spikeball Fundraiser Event</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary:#166534; /* green theme */
+      --accent:#22c55e; /* green accent */
+      --dark:#14532d; /* dark green */
+      --light:#f0fdf4; /* light green tint */
+      --text:#0f172a;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:'Poppins',sans-serif;
+      color:var(--text);
+      line-height:1.6;
+      background:#ffffff;
+    }
+    header{
+      background:linear-gradient(135deg,var(--primary),var(--accent));
+      color:white;
+      padding:80px 20px 100px;
+      text-align:center;
+    }
+    header h1{
+      font-size:48px;
+      margin:0 0 16px;
+      font-weight:700;
+    }
+    header p{
+      font-size:18px;
+      max-width:700px;
+      margin:0 auto 28px;
+      opacity:.95;
+    }
+    .btn{
+      display:inline-block;
+      padding:14px 26px;
+      border-radius:999px;
+      text-decoration:none;
+      font-weight:600;
+      margin:8px;
+      transition:.2s ease;
+    }
+    .btn-primary{background:white;color:var(--primary)}
+    .btn-primary:hover{transform:translateY(-2px)}
+    .btn-outline{border:2px solid white;color:white}
+    .btn-outline:hover{background:white;color:var(--primary)}
+
+    section{padding:70px 20px}
+    .container{max-width:1100px;margin:0 auto}
+    h2{
+      text-align:center;
+      font-size:32px;
+      margin-bottom:18px;
+      color:var(--dark);
+    }
+    .sub{
+      text-align:center;
+      max-width:700px;
+      margin:0 auto 40px;
+      color:#475569;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:24px;
+    }
+    .card{
+      background:#ffffff;
+      border-radius:16px;
+      padding:26px;
+      box-shadow:0 8px 24px rgba(0,0,0,.06);
+    }
+    .card h3{margin-top:0;color:var(--primary)}
+
+    .highlight{
+      background:var(--light);
+    }
+
+    .info-list{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:18px;
+      margin-top:30px;
+    }
+    .info{
+      background:white;
+      border-left:5px solid var(--accent);
+      padding:18px 20px;
+      border-radius:10px;
+      box-shadow:0 4px 14px rgba(0,0,0,.05);
+    }
+    .info strong{display:block;margin-bottom:6px;color:var(--dark)}
+
+    .cta{
+      background:linear-gradient(135deg,var(--dark),var(--primary));
+      color:white;
+      text-align:center;
+      padding:70px 20px;
+    }
+    .cta h2{color:white}
+
+    footer{
+      text-align:center;
+      padding:28px 20px;
+      background:#0f172a;
+      color:#cbd5e1;
+      font-size:14px;
+    }
+
+    .tag{
+      display:inline-block;
+      background:#e6fffa;
+      color:#065f46;
+      padding:6px 12px;
+      border-radius:999px;
+      font-size:12px;
+      font-weight:600;
+      margin-bottom:10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="tag">Community Fundraiser Event</div>
+  <h1>Set, Spike, Support</h1>
+  <p style="margin-top:10px;font-weight:600;opacity:.95">A Project by Team Set, Spike, Support</p>
+  <div style="margin-top:22px">
+  <p>
+    Join our high‑energy community tournament to raise funds and awareness for people affected by ALS. 
+    Play, connect, and make a meaningful impact together.
+  </p>
+  <a href="#register" class="btn btn-primary">Register Your Team</a>
+  <a href="#sponsor" class="btn btn-outline">Become a Sponsor</a>
+</header>
+
+<section>
+  <div class="container">
+    <h2>About the Event</h2>
+    <p class="sub">
+      This student‑led fundraising initiative brings the community together through sport, teamwork, and friendly competition. 
+      The event combines fitness, entertainment, and social engagement to generate donations and public awareness for an important cause.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Fun & Competitive</h3>
+        <p>Round‑robin pools, playoff brackets, and championship matches ensure exciting gameplay for all skill levels.</p>
+      </div>
+      <div class="card">
+        <h3>Community Impact</h3>
+        <p>Registration fees, sponsorships, and donations directly support research and local care programs.</p>
+      </div>
+      <div class="card">
+        <h3>Student Organized</h3>
+        <p>Planned and managed by a dedicated project team specializing in logistics, marketing, and financial coordination.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="highlight">
+  <div class="container">
+    <h2>Event Details</h2>
+
+    <div class="info-list">
+      <div class="info">
+        <strong>Date</strong>
+        April 11
+      </div>
+      <div class="info">
+        <strong>Location</strong>
+        SAIT Campus Soccer Field 
+      </div>
+      <div class="info">
+        <strong>Team Format</strong>
+        Teams of 2 players
+      </div>
+      <div class="info">
+        <strong>Registration Fee</strong>
+        $20 per participant
+      </div>
+      <div class="info">
+        <strong>Target Participation</strong>
+        25–30 Teams
+      </div>
+      <div class="info">
+        <strong>Fundraising Goal</strong>
+        Minimum $1,000 Net Contribution
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="register">
+  <div class="container">
+    <h2>Register Your Team</h2>
+    <p class="sub">
+      Secure your spot early. Spaces are limited and filled on a first‑come, first‑served basis.
+    </p>
+    <div class="card" style="max-width:520px;margin:0 auto">
+      <form>
+        <label>Team Name</label><br>
+        <input type="text" style="width:100%;padding:10px;margin:6px 0 14px;border-radius:8px;border:1px solid #cbd5e1">
+        <label>Contact Email</label><br>
+        <input type="email" style="width:100%;padding:10px;margin:6px 0 14px;border-radius:8px;border:1px solid #cbd5e1">
+        <label>Number of Players</label><br>
+        <select style="width:100%;padding:10px;margin:6px 0 18px;border-radius:8px;border:1px solid #cbd5e1">
+          <option>2 Players</option>
+        </select>
+        <button type="button" class="btn btn-primary" style="width:100%">Submit Registration</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="sponsor" class="highlight">
+  <div class="container">
+    <h2>Become a Sponsor</h2>
+    <p class="sub">
+      Partner with us to support a meaningful cause while gaining visibility within the local community.
+    </p>
+    <div style="text-align:center">
+      <a href="#" class="btn btn-primary">Sponsor the Event</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Play. Compete. Make a Difference.</h2>
+  <p>Together, we can turn community energy into meaningful impact.</p>
+  <a href="#register" class="btn btn-primary">Join the Tournament</a>
+</section>
+
+<footer>
+  © 2026 Spikeball Fundraiser Project Team • Educational Use
+</footer>
+
+</body>
+</html>
